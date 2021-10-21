@@ -1,0 +1,27 @@
+<h3> 회원 가입 </h3>
+
+<body>
+    <form method="POST">
+        아이디: <input type = "text" name = "id" size ="12"> 
+        <!-- <input type="submit" value="아이디 중복 확인"> -->
+        <br/>
+        <br/>
+        비밀번호: <input type = "text" name = "password1" size ="12">
+        <br/>
+        <br/>
+        비밀번호 확인: <input type = "text" name = "password2" size ="12">
+        <br/>
+        <br/>
+        이메일: <input type = "text" name = "email" size ="12">
+        <br/>
+        <br/>
+        지역: <input type = "text" name = "region" size ="12">
+        <br/>
+        <br/>
+        <input type="submit" value="완료"> 
+    </form>
+    {{id_success}}
+    {{id_fail}}
+    {{pw_fail}}
+    
+</body>
